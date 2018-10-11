@@ -1,17 +1,5 @@
 # palindromo
 
-def palindromo(x):
-    inverso = ''
-    for i in range(len(x)-1, -1, -1):
-        inverso += x[i]
-    return inverso
+Função em Python para verificar se a palavra/frase é ou não palíndromo 
 
-palavra = str(input('Digite: '))
-frase = palavra.split()
-x = ''.join(frase)
-
-if palindromo(x) == x:
-    print('CLOSE CERTO É PALINDROMO')
-
-else:
-    print('VITTAR ESTÁ TRISTE, CLOSE ERRADO, NÃO É PALINDROMO!!!!')
+be happy
